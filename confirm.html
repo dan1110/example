@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Email</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .confirm-email .confirm{
+            width: 400px;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-top{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-top img{
+            width: 30%;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-top h1{
+            color: orange;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 700;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-top a{
+            padding: 12px 45px;
+            background-color: orange;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-top p{
+            font-size: 15px;
+            text-align: center;
+            color: #242424;
+            margin-top: 0;
+            margin-bottom: 2rem;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-top p:last-child{
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-bottom{
+            padding: 1rem;
+            background-color: rgba(83, 83, 83, 0.158);
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-bottom .nav-confirm-content{
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-bottom .nav-confirm-content li{
+            margin-left: 25px;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-bottom .nav-confirm-content li:first-child{
+            margin-left: 0;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-bottom .nav-confirm-content li img{
+            height: 35px;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-bottom .nav-confirm-content li a{
+            text-transform: uppercase;
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 11px;
+            color: #242424;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-bottom .text-confirm-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-bottom .text-confirm-content h2{
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            color: #242424;
+            margin-bottom: 0;
+        }
+        .confirm-email .confirm .confirm-content .confirm-content-bottom .text-confirm-content p{
+            color: #242424f6;
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="confirm-email">
+        <div class="confirm">
+            <div class="confirm-content">
+                <div class="confirm-content-top">
+                    <img src="./image/confirm.png" alt="">
+                    <h1>confirm your email</h1>
+                    <p>Please take a second to make sure we've got the right <br> email address. Simply click the button below.</p>
+                    <a href="#">confirm email</a>
+                    <p>If you have any question you can contact us at</p>
+                </div>
+                <div class="confirm-content-bottom">
+                    <ul class="nav-confirm-content" >
+                        <li><a href="#">
+                            <img src="./image/apple.png" alt="">
+                            <h3>IOS</h3>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./image/play.png" alt="">
+                            <h3>android</h3>
+                        </a></li>
+                        <li><a href="#"><h3>trade now</h3></a></li>
+                        <li><a href="#"><h3>android</h3></a></li>
+                    </ul>
+                    <div class="text-confirm-content">
+                        <h2>General risk warning:</h2>
+                        <p>The financial products offered by company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot addord to lose</p>
+                        <p>Terms and Conditions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
