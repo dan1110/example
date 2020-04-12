@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="side.css">
+    <script>
+        function openSlide(){
+            document.getElementById('menu').style.width = '250px';
+            document.getElementById('content').style.marginLeft = '250px';
+        }
+        function closeSlide(){
+            document.getElementById('menu').style.width = '0';
+            document.getElementById('content').style.marginLeft = '0';
+        }
+    </script>
+</head>
+<body>
+    <div id="content">
+
+        <span class="slide">
+            <a href="#" onclick="openSlide()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </span>
+        <div id="menu" class="nav">
+            <a href="#" class="close" onclick="closeSlide()">
+                <i class="fas fa-times"></i>
+            </a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">blog</a>
+        </div>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit blanditiis natus totam perferendis modi ducimus molestiae hic vitae doloribus. Iusto error recusandae molestiae perspiciatis alias quaerat quo accusantium magnam.</h1>
+    </div>
+</body>
+</html>
